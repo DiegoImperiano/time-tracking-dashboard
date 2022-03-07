@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="container">
+        <header>
+          <div class="main">
+            <div class="image">
+              <img class="jeremy" src="/images/image-jeremy.png" alt="" />
+            </div>
+            <div class="infojeremy">
+              <span>Report for</span>
+              <h1>Jeremy Robson</h1>
+            </div>
+          </div>
+          <nav>
+            <ul>
+              <li type="button" id="daily" type="button" onclick="day()">
+                Daily
+              </li>
+              <li type="button" id="weekly" onclick="week()">Weekly</li>
+              <li type="button" id="monthly" onclick="month()">Monthly</li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <section class="work">
+            <div class="image img-work">
+              <img class="imgsec" src="/images/icon-work.svg" alt="" />
+            </div>
+            <div class="conteudo">
+              <div class="subtitle">
+                <h2>Work</h2>
+                <span>...</span>
+              </div>
+              <p>
+                <span class="big" id="atual1">32</span>
+                <span class="span">
+                  <span id="previous1">Previous </span>
+                  <span id="hora1">36</span>
+                </span>
+              </p>
+            </div>
+          </section>
+          <section class="play">
+            <div class="image img-play">
+              <img class="imgsec" src="/images/icon-play.svg" alt="" />
+            </div>
+            <div class="conteudo">
+              <div class="subtitle">
+                <h2>Play</h2>
+                <span>...</span>
+              </div>
+              <p>
+                <span class="big" id="atual2">10</span>
+                <span class="span">
+                  <span id="previous2">Previous</span>
+                  <span id="hora2">8</span>
+                </span>
+              </p>
+            </div>
+          </section>
+          <section class="study">
+            <div class="image img-study">
+              <img class="imgsec" src="/images/icon-study.svg" alt="" />
+            </div>
+            <div class="conteudo">
+              <div class="subtitle">
+                <h2>Study</h2>
+                <span>...</span>
+              </div>
+              <p>
+                <span class="big" id="atual3">4</span>
+                <span class="span">
+                  <span id="previous3">Previous </span>
+                  <span id="hora3">7</span>
+                </span>
+              </p>
+            </div>
+          </section>
+          <section class="exercise">
+            <div class="image img-exercise">
+              <img class="imgsec" src="/images/icon-exercise.svg" alt="" />
+            </div>
+            <div class="conteudo">
+              <div class="subtitle">
+                <h2>Exercise</h2>
+                <span>...</span>
+              </div>
+
+              <p>
+                <span class="big" id="atual4">4</span>
+                <span class="span">
+                  <span id="previous4">Previous </span>
+                  <span id="hora4">5</span>
+                </span>
+              </p>
+            </div>
+          </section>
+          <section class="social">
+            <div class="image img-social">
+              <img class="imgsec" src="/images/icon-social.svg" alt="" />
+            </div>
+            <div class="conteudo">
+              <div class="subtitle">
+                <h2>Social</h2>
+                <span>...</span>
+              </div>
+
+              <p>
+                <span class="big" id="atual5">5</span>
+                <span class="span">
+                  <span id="previous5">Previous</span>
+                  <span id="hora5">10</span>
+                </span>
+              </p>
+            </div>
+          </section>
+          <section class="selfCare">
+            <div class="image img-selCare">
+              <img class="imgsec" src="/images/icon-self-care.svg" alt="" />
+            </div>
+            <div class="conteudo">
+              <div class="subtitle">
+                <h2>self Care</h2>
+                <span>...</span>
+              </div>
+
+              <p>
+                <span class="big" id="atual6">2</span>
+                <span class="span">
+                  <span id="previous6">Previous </span>
+                  <span id="hora6">2</span>
+                </span>
+              </p>
+            </div>
+          </section>
+        </main>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.linkedin.com/in/diegoimperiano/">Diego Imperiano</a
+        >.
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
