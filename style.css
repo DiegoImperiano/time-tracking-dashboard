@@ -135,6 +135,18 @@ li {
   margin: 0px 0 20px 20px;
 }
 
+div.subtitle span.pontinhos {
+  cursor: pointer;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+  display: contents;
+}
+
+div.subtitle span.pontinhos img {
+  height: 3px;
+}
+
 div.conteudo.infojeremy {
   background: var(--Blue);
   margin-left: 30px;
