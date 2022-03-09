@@ -199,7 +199,7 @@ div.attribution {
   text-align: center;
 }
 .attribution a {
-  color: white;
+  color: var(--Desaturated-blue);
 }
 
 @media (min-width: 920px) {
@@ -299,7 +299,9 @@ div.attribution {
     font-size: 11px;
     text-align: center;
   }
-  .attribution a {
-    color: white;
+  .attribution a,
+  .attribution span {
+    font-size: 12px;
+    color: var(--Pale-Blue);
   }
 }
