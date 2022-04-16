@@ -16,13 +16,21 @@ o layout o mais fiel possivel as imagens disponiveis como inspiração, além de
 
 <p align="center">
 
-_Tela do desktop:_
-<img src=".github/desktop.png"/>
-
-_Tela mobile:_
-<img src=".github/mobile.png"/>
+  _Tela do desktop:_
+  <img src=".github/desktop.png"/>
 
 </p>
+
+<div> 
+  <p>   
+    
+   _Tela mobile:_
+    
+  </p>
+
+
+  <img src=".github/mobile.png"/>
+</div>
 
 ## Tecnologias utilizadas
 
